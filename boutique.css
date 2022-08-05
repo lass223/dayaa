@@ -1,0 +1,610 @@
+*{
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+header{
+    background: url(./IMAGES/boutique.jpg) no-repeat  ;
+    height: 6cm;
+    background-size:cover;
+}
+/*------Barre de Nagigation------*/
+#navbar {
+  display: flex;
+ 
+}
+
+/*------------logo--------------*/
+.logo{
+ color: rgba(245, 192, 94, 0.87);
+ margin-top: 0.6cm;
+ margin-left:0.9cm;
+ margin-bottom: 0.5cm;
+ font-size: 1cm;
+}
+
+.logo strong {
+color: rgba(0, 0, 0, 0.589);
+}
+
+/*------------lien  Navbar-------*/
+
+.lien_navbar{
+display: flex;
+margin-top: 1cm;
+margin-left: 14.5cm;
+font-size: 0.4cm;
+}
+
+
+.lien_navbar li{
+    margin-left: 0.5cm;
+}
+
+.lien_navbar a {
+    color:rgba(255, 255, 255, 0.836);
+}
+
+.lien_navbar a:hover {
+    color: rgba(245, 192, 94, 0.87);
+}
+
+.text {
+    text-align: center;
+ margin-top: 3cm;
+ font-family:cursive;
+ color: rgba(255, 255, 255, 0.836);
+ font-size: 1.3cm;
+}
+
+.text_bienvenue {
+    text-align: justify;
+    color: rgba(22, 19, 19, 0.75);
+    font-size: 00.5cm;
+    margin: 2cm 0 0 2cm;
+    width: 20cm;
+    animation: slidein 0.5s;
+}
+
+@keyframes slidein {
+	from {
+		margin-left: 100%;
+		width: 20cm;
+	}
+	to {
+		margin-left: 0%;
+		width: 20cm;
+	}
+}
+
+.text_bienvenue h2 {
+    color: rgba(245, 192, 94, 0.87);
+    letter-spacing: 1px;
+}
+
+
+
+
+/*--------separateur -------
+
+.separateur {
+   background: url(./IMAGES/separateur.png) ;
+   height: 0.07cm;
+   opacity: 50%;
+    
+}           */
+
+.separateur_fin {
+    background: url(./IMAGES/separateur.png) ;
+    height: 0.07cm;
+    opacity: 50%;
+    margin-top:2cm;
+ }          
+
+/*------Boutique-----*/
+/*------ligne1------*/
+.ligne1 {
+   margin: 4cm 0 0 4cm ;
+    display: flex;
+}
+
+.produit1 a img{
+margin-left: 1cm;
+}
+
+.produit1 a h4{
+    margin: 1cm 0 1cm 0;
+    color: rgba(0, 0, 0, 0.699);
+
+}
+
+.produit1 a h2{
+    color:rgba(245, 192, 94, 0.87);
+    text-align: center;
+}
+
+.produit1:hover {
+  opacity: 60%;
+}
+
+.produit2{
+   margin: -0.5cm 0 0 2.5cm  ;
+   
+}
+
+.produit2 a img{
+margin-left: 0.5cm;
+}
+
+.produit2 a h4{
+    margin: 0.8cm 0 1cm 0;
+    color: rgba(0, 0, 0, 0.699);
+}
+
+.produit2 a h2{
+    color:rgba(245, 192, 94, 0.87);
+    text-align: center;
+}
+
+.produit2:hover {
+    opacity: 60%;
+  
+  }
+
+.produit3{
+    margin: -1.3cm 0 0 2.5cm  ;
+ }
+ 
+ .produit3 a img{
+ margin-left: 0.5cm;
+ }
+ 
+ .produit3 a h4{
+     margin: 0.8cm 0 1cm 0;
+     color: rgba(0, 0, 0, 0.699);
+ }
+
+ .produit3 a h2{
+    color:rgba(245, 192, 94, 0.87);
+    text-align: center;
+}
+
+.produit3:hover {
+    opacity: 60%;
+  
+  }
+
+ .produit4{
+    margin: -1.35cm 0 0 2.5cm  ;
+ }
+ 
+ .produit4 a img{
+ margin-left: 0.5cm;
+ }
+ 
+ .produit4 a h4{
+     margin: 0.8cm 0 1cm 0;
+     color: rgba(0, 0, 0, 0.699);
+ }
+
+ .produit4 a h2{
+    color:rgba(245, 192, 94, 0.87);
+    text-align: center;
+}
+
+.produit4:hover {
+    opacity: 60%;
+  }
+
+/* ------J ai pas pu faire le hover ----*/
+
+.ligne2 {
+    margin: 3cm 0 0 4cm ;
+     display: flex;
+ }
+ 
+ .produit5 a img{
+ margin:-0.5cm  0 0 1cm ;
+ }
+ 
+ .produit5 a h4{
+     margin: 0.8cm 0 1cm 0;
+     color: rgba(0, 0, 0, 0.699);
+ 
+ }
+ 
+ .produit5 a h2{
+     color:rgba(245, 192, 94, 0.87);
+     text-align: center;
+ }
+
+ .produit5:hover {
+    opacity: 60%;
+  
+  }
+ 
+ .produit6{
+    margin: -0.5cm 0 0 2.5cm  ;
+ }
+ 
+ .produit6 a img{
+ margin-left: 0.5cm;
+ }
+ 
+ .produit6 a h4{
+     margin: 0.8cm 0 1cm 0;
+     color: rgba(0, 0, 0, 0.699);
+ }
+ 
+ .produit6 a h2{
+     color:rgba(245, 192, 94, 0.87);
+     text-align: center;
+ }
+ 
+ .produit6:hover {
+    opacity: 60%;
+  }
+
+ .produit7{
+     margin: 0.7cm 0 0 2.5cm  ;
+  }
+  
+  .produit7 a img{
+  margin-left: 1cm;
+  }
+  
+  .produit7 a h4{
+      margin: 0.8cm 0 1cm 0;
+      color: rgba(0, 0, 0, 0.699);
+  }
+ 
+  .produit7 a h2{
+     color:rgba(245, 192, 94, 0.87);
+     text-align: center;
+ }
+ 
+ .produit7:hover {
+    opacity: 60%;
+  
+  }
+
+  .produit8{
+     margin: 0.6cm 0 0 2.5cm  ;
+  }
+  
+  .produit8 a img{
+  margin-left: 1cm;
+  }
+  
+  .produit8 a h4{
+      margin: 0.8cm 0 1cm 0;
+      color: rgba(0, 0, 0, 0.699);
+  }
+ 
+  .produit8 a h2{
+     color:rgba(245, 192, 94, 0.87);
+     text-align: center;
+ }
+
+ .produit8:hover {
+    opacity: 60%;
+  
+  }
+
+ /* .ligne3 {
+    margin: 3cm 0 0 4cm ;
+     display: flex;
+ }
+ 
+ .produit9 a img{
+ margin:-0.5cm  0 0 0 ;
+ }
+ 
+ .produit9 a h4{
+     margin: 0.8cm 0 1cm 0cm;
+     color: rgba(0, 0, 0, 0.699);
+ 
+ }
+ 
+ .produit9 a h2{
+     color:rgba(245, 192, 94, 0.87);
+     text-align: center;
+ }
+
+ .produit9:hover {
+    opacity: 60%;
+  
+  }
+ 
+ .produit10{
+    margin: -0.5cm 0 0 2.5cm  ;
+ 
+ }
+ 
+ .produit10 a img{
+ margin-left: 1cm;
+ }
+ 
+ .produit10 a h4{
+     margin: 0.8cm 0 1cm 0.8cm;
+     color: rgba(0, 0, 0, 0.699);
+ }
+ 
+ .produit10 a h2{
+     color:rgba(245, 192, 94, 0.87);
+     text-align: center;
+ }
+
+ .produit10:hover {
+    opacity: 60%;
+  
+  }
+ 
+ .produit11{
+     margin: 0.7cm 0 0 2.5cm  ;
+  }
+  
+  .produit11 a img{
+  margin:-0.2cm 0 0 1cm;
+  }
+  
+  .produit11 a h4{
+      margin: 0.6cm 0 1cm 1.5cm;
+      color: rgba(0, 0, 0, 0.699);
+  }
+ 
+  .produit11 a h2{
+     color:rgba(245, 192, 94, 0.87);
+     margin-left: 1.7cm;
+ }
+
+ .produit11:hover {
+    opacity: 60%;
+  
+  }
+ 
+  .produit12{
+     margin: 0.6cm 0 0 2.5cm  ;
+  }
+  
+  .produit12 a img{
+  margin-left: 0.7cm;
+  }
+  
+  .produit12 a h4{
+      margin: 0.7cm 0 1cm 0;
+      color: rgba(0, 0, 0, 0.699);
+  }
+ 
+  .produit12 a h2{
+     color:rgba(245, 192, 94, 0.87);
+     text-align: center;
+ }
+
+ .produit12:hover {
+    opacity: 60%;
+  
+  } */
+
+
+ .ligne4 {
+    margin: 3cm 0 0 4cm ;
+     display: flex;
+ }
+ 
+ .produit13 a img{
+ margin:1cm  0 0 1cm ;
+ }
+ 
+ .produit13 a h4{
+     margin: 0.8cm 0 1cm 0.2cm;
+     color: rgba(0, 0, 0, 0.699);
+ 
+ }
+ 
+ .produit13 a h2{
+     color:rgba(245, 192, 94, 0.87);
+    text-align: center;
+ }
+
+ .produit13:hover {
+    opacity: 60%;
+  
+  }
+ 
+ .produit14{
+    margin: 1.3cm 0 0 3cm  ;
+
+ }
+ 
+ .produit14 a img{
+ margin-left: 0.5cm;
+ }
+ 
+ .produit14 a h4{
+     margin: 0.8cm 0 1cm 0.7cm;
+     color: rgba(0, 0, 0, 0.699);
+ }
+ 
+ .produit14 a h2{
+     color:rgba(245, 192, 94, 0.87);
+     text-align: center;
+ }
+ 
+ .produit14:hover {
+    opacity: 60%;
+  
+  }
+
+ .produit15{
+     margin: -0.2cm 0 0 3.5cm  ;
+  }
+  
+  .produit15 a img{
+  margin-left: 1.3cm;
+  }
+  
+  .produit15 a h4{
+      margin: 0.6cm 0 1cm 0;
+      color: rgba(0, 0, 0, 0.699);
+  }
+ 
+  .produit15 a h2{
+     color:rgba(245, 192, 94, 0.87);
+     text-align: center;
+ }
+ 
+ .produit15:hover {
+    opacity: 60%;
+  }
+
+  .produit16{
+     margin: 0cm 0 0 3cm  ;
+  }
+  
+  .produit16 a img{
+  margin-left: 1.5cm;
+  }
+  
+  .produit16 a h4{
+      margin: 0.4cm 0 1cm 0;
+      color: rgba(0, 0, 0, 0.699);
+  }
+ 
+  .produit16 a h2{
+     color:rgba(245, 192, 94, 0.87);
+     text-align: center;
+ }
+
+ .produit16:hover {
+    opacity: 60%;
+  
+  }
+
+ .ligne5 {
+    margin: 3cm 0 0 4cm ;
+     display: flex;
+ }
+ 
+.produit17 {
+    margin-top: -1.5cm;
+   
+}
+
+
+ .produit17 a img{
+ margin:1cm  0 0 1cm ;
+ }
+ 
+ .produit17 a h4{
+     margin: 0.8cm 0 1cm 0.2cm;
+     color: rgba(0, 0, 0, 0.699);
+ 
+ }
+ 
+ .produit17 a h2{
+     color:rgba(245, 192, 94, 0.87);
+    text-align: center;
+ }
+ 
+ .produit17:hover {
+    opacity: 60%;
+  
+  }
+
+ .produit18{
+    margin: 2cm 0 0 4cm  ;
+    margin-right: 0cm;
+ }
+ 
+ .produit18 a img{
+ margin-left: 0.5cm;
+ }
+ 
+ .produit18 a h4{
+     margin: 0.8cm 0 1cm 1.5cm;
+     color: rgba(0, 0, 0, 0.699);
+ }
+ 
+ .produit18 a h2{
+     color:rgba(245, 192, 94, 0.87);
+     text-align: center;
+     margin-left: 1.1cm;
+ }
+
+ .produit18:hover {
+    opacity: 60%;
+  
+  }
+ 
+ .produit19{
+     margin: 2.5cm 0 0 3.5cm  ;
+  }
+  
+  
+  .produit19 a h4{
+      margin: 0.6cm 0 1cm 1cm;
+      color: rgba(0, 0, 0, 0.699);
+  }
+ 
+  .produit19 a h2{
+     color:rgba(245, 192, 94, 0.87);
+   margin-left: 1cm;
+ }
+ 
+ .produit19:hover {
+    opacity: 60%;
+  
+  }
+
+  .produit20{
+     margin: 1.2cm 0 0 3cm  ;
+  }
+  
+  .produit20 a img{
+  margin-left: 1.5cm;
+  }
+  
+  .produit20 a h4{
+      margin: 0.4cm 0 1cm 1cm;
+      color: rgba(0, 0, 0, 0.699);
+  }
+ 
+  .produit20 a h2{
+     color:rgba(245, 192, 94, 0.87);
+  margin-left: 1cm;
+ }
+
+
+ .produit20:hover {
+    opacity: 60%;
+  
+  }
+
+ /*-------------pied de page --------*/
+footer{
+    height: 1.5cm;
+    color:rgba(0, 0, 0, 0.699);
+   margin-top: 7cm;
+}
+
+.separateur{
+    background-color: rgba(0, 0, 0, 0.705);
+    height: 0.02cm;
+    width: 30cm;
+    text-align: center;
+    opacity: 50%;
+    margin-left: 2.2cm;
+
+}
+
+
+
+footer p {
+    margin-top: 0.3cm;
+    width: 10cm;
+margin-left: 12.5cm;
+}
+
+

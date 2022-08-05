@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+header{
+    background: url(./IMAGES/formulaire1.jpg) no-repeat center;
+    height: 7cm;
+    background-size:cover;
+}
+/*------Barre de Nagigation------*/
+#navbar {
+  display: flex;
+ 
+}
+
+/*------------logo--------------*/
+.logo{
+ color: rgba(245, 192, 94, 0.87);
+ margin-top: 0.6cm;
+ margin-left:0.9cm;
+ margin-bottom: 0.5cm;
+ font-size: 1cm;
+}
+
+.logo strong {
+color: rgba(0, 0, 0, 0.589);
+}
+
+/*------------lien  Navbar-------*/
+
+.lien_navbar{
+display: flex;
+margin-top: 1cm;
+margin-left: 14.5cm;
+font-size: 0.4cm;
+}
+
+
+.lien_navbar li{
+    margin-left: 0.5cm;
+}
+
+.lien_navbar a {
+    color:rgba(12, 9, 9, 0.836);
+}
+
+.lien_navbar a:hover {
+    color: rgba(245, 192, 94, 0.87);
+}
+
+.text {
+    text-align: center;
+ margin-top: 3cm;
+ font-family:cursive;
+ color: rgba(255, 255, 255, 0.836);
+ font-size: 1.3cm;
+}
+
+.text_formulaire{
+    color:rgba(12, 9, 9, 0.700);
+    margin-left: 2cm;
+    margin-top: 1cm;
+    font-size: 0.5cm;
+}
+
+
+.text_formulaire h3{
+    padding-top: 0.5cm;
+    padding-left: 1cm;
+}
+
+.formulaire{
+display: flex;
+
+}
+
+.formulaire_left{
+width: 4cm;
+margin-left: 1.5cm;
+margin-top: 3cm;
+}
+
+.formulaire_right{
+    border-left: 0.5cm solid orange;
+    margin-left: 6cm;
+    margin-top: 2cm;
+}
+
+
+form{
+    margin-left: 16cm;
+    
+   
+}
+
+input{
+    border: none;
+    margin-bottom: 26px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.40);
+   background: rgba(255, 255, 255, 0.726) ;
+   color:  rgba(0, 0, 0, 0.692);
+  background-origin: padding-box;
+
+}
+
+label {
+    margin-left: 0.5cm;
+    margin-right: 0.2cm;
+}
+
+input:hover{
+    border: none;
+    border-bottom: 2px solid black;
+}
+
+
+
+.nom{
+    margin-right: 1cm;
+}
+
+h3{
+    margin-left: 0.5cm;
+}
+
+.payement{
+    display: flex;
+    margin-right: 4cm;
+}
+
+.payement img {
+    width: 1cm;
+    margin: 0.5cm 3cm 0 2cm;
+    margin-right: 2cm;
+    margin-left: 3cm;
+}
+
+.payement a {
+    margin: 0.5cm 1.7cm 0 2cm;
+    text-decoration: none;
+   
+}
+
+.button {
+    text-align: center;
+    color:rgba(0, 0, 0, 0.699);
+    margin-top: 2cm; 
+    margin-left: -4.5cm;
+}
+
+ .button a{
+   border-radius: 10%;
+    border: 2px solid rgba(245, 192, 94, 0.87);
+    padding: 10px;
+    color:rgba(245, 192, 94, 0.87);
+ }
+
+ .button a:hover{
+    border-radius: 10%;
+    border: 2px solid rgba(245, 192, 94, 0.87);
+    background-color: rgba(245, 192, 94, 0.87) ;
+    padding: 10px;
+    color: white;
+ }
+ 
+ /*--------pied de page-----*/
+
+footer{
+    height: 1.5cm;
+    color:rgba(0, 0, 0, 0.699);
+    margin-top: 3cm;
+   
+}
+
+.separateur{
+    background-color: rgba(0, 0, 0, 0.705);
+    height: 0.02cm;
+    width: 30cm;
+    text-align: center;
+    opacity: 50%;
+    margin-left: 2.2cm;
+
+}
+
+
+
+footer p {
+    margin-top: 0.3cm;
+    width: 10cm;
+margin-left: 12.5cm;
+}

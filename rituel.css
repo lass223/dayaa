@@ -1,0 +1,473 @@
+*{
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body p {
+    color: rgba(22, 19, 19, 0.75);
+    font-size: 00.45cm;
+}
+body h3{
+    color:rgba(245, 192, 94, 0.87);
+    font-size: 0.6cm;
+}
+
+header{
+    background: url(./IMAGES/spa5.jpg) no-repeat ;
+    height: 5cm;
+    background-size:cover;
+}
+/*------Barre de Nagigation------*/
+#navbar {
+  display: flex;
+ 
+}
+
+/*------------logo--------------*/
+.logo{
+ color: rgba(245, 192, 94, 0.87);
+ margin-top: 0.6cm;
+ margin-left:0.9cm;
+ margin-bottom: 0.5cm;
+ font-size: 1cm;
+}
+
+.logo strong {
+color: rgba(0, 0, 0, 0.589);
+}
+
+/*------------lien  Navbar-------*/
+
+.lien_navbar{
+display: flex;
+margin-top: 1cm;
+margin-left: 18cm;
+font-size: 0.4cm;
+}
+
+
+.lien_navbar li{
+    margin-left: 0.5cm;
+}
+
+.lien_navbar a {
+    color:white;
+}
+
+.lien_navbar a:hover {
+    color: rgba(245, 192, 94, 0.87);
+}
+
+
+    /******POSITIONNEMENT ******/
+   
+    .descrip {
+        width: 25cm;
+        position: relative;
+        left: 7cm;
+        margin-top: 1.5cm;
+        margin-bottom: 1.5cm;
+        font-size: 00.5cm;
+        color: rgba(22, 19, 19, 0.75)
+    }
+   
+    /******DONNER DU STYLE AU LIEN PRENEZ UN RENDEZ VOUS *****/
+    
+    /******soin de visage *****/
+    .titre1{
+    text-align: center;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    color: rgba(245, 192, 94, 0.87);
+}
+    /******article 1 *****/
+    .art1{
+    text-align: left;
+    color: rgba(245, 192, 94, 0.87);
+    margin-left: 7cm;
+    margin-top: 1.5cm;
+    }
+    .descrip1{
+       margin: 0 0 0.5cm 7cm;
+       color: rgba(22, 19, 19, 0.75)
+    }
+    .img1 {
+        position: relative;
+        left: 25cm;
+        top: -4.5cm;
+    }
+    /******style lien offrir****/
+    .offrir { 
+        position: relative;
+        top: -4cm;
+        left: 6.75cm;
+        width: 3cm;
+        padding: 15px;
+        color: rgb(250, 244, 244); 
+        display: inline-block;
+        font-size: 15px;
+        text-align: center;
+        cursor: pointer;
+    }
+    /*******article 2 ***/
+    .art2 {
+        position: relative;
+        top: -3.5cm;
+        left: 6cm;
+        margin: 2%;
+        color: rgba(245, 192, 94, 0.87);
+    }
+    .descrip2{
+        position: relative;
+        top: -4cm;
+        left: 6cm;
+        margin: 2%;
+        font-size: 00.45cm;
+    }
+    .img2{
+        position: relative;
+        left: 25cm;
+        top: -8cm;
+    }
+    .offrir1{
+        position: relative;
+        top: -7cm;
+        left: 6.75cm;
+        width: 3+cm;
+        padding: 15px;
+       
+        color: rgb(250, 244, 244); 
+        display: inline-block;
+        font-size: 15px;
+        text-align: center;
+        cursor: pointer;
+
+    }
+    /******style animation ***/
+    .offrir :hover{
+       background-color: goldenrod;
+    }
+    .offrir a {
+        text-decoration: none;
+        color: rgba(245, 192, 94, 0.87);
+        border: 2px solid rgba(245, 192, 94, 0.87);
+        padding: 0.3cm;
+        border-radius: 10%;
+       transition: 0.5s;
+   }
+    .offrir a:hover{
+        color: white;
+    border: 2px solid rgba(245, 192, 94, 0.87);
+    padding: 0.3cm;
+    border-radius: 10%;
+    background-color:rgba(245, 192, 94, 0.87) ;
+    }
+    /******2em lien offrir***/
+    .offrir1 :hover{
+        background-color: goldenrod;
+     }
+     .offrir1 a {
+        text-decoration: none;
+ color: rgba(245, 192, 94, 0.87);
+ border: 2px solid rgba(245, 192, 94, 0.87);
+ padding: 0.3cm;
+ border-radius: 10%;
+transition: 0.5s;
+    }
+     .offrir1 a:hover{
+        color: white;
+    border: 2px solid rgba(245, 192, 94, 0.87);
+    padding: 0.3cm;
+    border-radius: 10%;
+    background-color:rgba(245, 192, 94, 0.87) ;
+     }
+    /****soin du corps***/
+    .titre2{
+        position: relative;
+        top: -4cm;
+        text-align: center;
+        letter-spacing: 6px;
+        text-transform: uppercase;
+        color: rgba(245, 192, 94, 0.87);
+    }
+    /****article 1 soin du corps***/
+    .art3{
+        position: relative;
+        top: -2.5cm;
+        left: 6.7cm;
+    }
+    .descrip3{
+        position: relative;
+        top: -3cm;
+        left: 6cm;
+        margin: 2%;
+    }
+    .img3{
+        position: relative;
+        left: 25cm;
+        top: -7cm;
+    }
+    .offrir2{
+        position: relative;
+        top: -7.5cm;
+        left: 6.75cm;
+        width: 3+cm;
+        padding: 15px;
+        color: rgb(250, 244, 244); 
+        display: inline-block;
+        font-size: 15px;
+        text-align: center;
+        cursor: pointer;
+    }
+    /*****article 2 soin de corps***/
+    .art4{
+        position: relative;
+        top: -6cm;
+        left: 6.7cm;
+    }
+    .descrip4{
+        position: relative;
+        top: -6.5cm;
+        left: 6cm;
+        margin: 2%;
+    }
+    .img4{
+        position: relative;
+        left: 25cm;
+        top: -cm;
+    }
+    .offrir3{
+        position: relative;
+        top: -9cm;
+        left: 7cm;
+        width: 3cm;
+        padding: 15px;
+        color: rgb(250, 244, 244); 
+        display: inline-block;
+        font-size: 15px;
+        text-align: center;
+        cursor: pointer;
+    }
+    /****article3 soin du corps***/
+    .art5{
+        position: relative;
+        top: -7.2cm;
+        left: 6.7cm;
+    }
+    .descrip5{
+        position: relative;
+        top: -7.6cm;
+        left: 6cm;
+        margin: 2%;
+    }
+    .img5{
+        position: relative;
+        left: 25cm;
+        top: -11.5cm;
+    }
+    .offrir4{
+        position: relative;
+        top: -11.20cm;
+        left: 6.75cm;
+        width: 3+cm;
+        padding: 15px;
+        color: rgb(250, 244, 244); 
+        display: inline-block;
+        font-size: 15px;
+        text-align: center;
+        cursor: pointer;
+    }
+    /******style animation ***/
+    .offrir2 :hover{
+        background-color: goldenrod;
+     }
+     .offrir2 a {
+        text-decoration: none;
+        color: rgba(245, 192, 94, 0.87);
+        border: 2px solid rgba(245, 192, 94, 0.87);
+        padding: 0.3cm;
+        border-radius: 10%;
+       transition: 0.5s;
+    }
+     .offrir2 a:hover{
+        color: white;
+        border: 2px solid rgba(245, 192, 94, 0.87);
+        padding: 0.3cm;
+        border-radius: 10%;
+        background-color:rgba(245, 192, 94, 0.87) ;
+    }
+    /******style animation ***/
+    .offrir3 :hover{
+        background-color: goldenrod;
+     }
+     .offrir3 a {
+        text-decoration: none;
+        color: rgba(245, 192, 94, 0.87);
+        border: 2px solid rgba(245, 192, 94, 0.87);
+        padding: 0.3cm;
+        border-radius: 10%;
+       transition: 0.5s;
+    }
+     .offrir3 a:hover{
+        color: white;
+        border: 2px solid rgba(245, 192, 94, 0.87);
+        padding: 0.3cm;
+        border-radius: 10%;
+        background-color:rgba(245, 192, 94, 0.87) ;
+    }
+    /******style animation ***/
+    .offrir4 :hover{
+        background-color: goldenrod;
+     }
+     .offrir4 a {
+        text-decoration: none;
+ color: rgba(245, 192, 94, 0.87);
+ border: 2px solid rgba(245, 192, 94, 0.87);
+ padding: 0.3cm;
+ border-radius: 10%;
+transition: 0.5s;
+    }
+     .offrir4 a:hover{
+        color: white;
+        border: 2px solid rgba(245, 192, 94, 0.87);
+        padding: 0.3cm;
+        border-radius: 10%;
+        background-color:rgba(245, 192, 94, 0.87) ;
+     }
+     /****soin special***/
+    .titre3{
+        position: relative;
+        top: -7.5cm;
+        text-align: center;
+        letter-spacing: 6px;
+        text-transform: uppercase;
+        color: rgba(245, 192, 94, 0.87);
+    }
+    /******article 1 special *****/
+    .art6{
+        position: relative;
+        top: -6cm;
+        left: 6cm;
+        margin: 2%;
+    }
+    .descrip6{
+        position: relative;
+        top: -6.4cm;
+        left: 6cm;
+        margin: 2%;
+        font-size: 0.45cm;
+    }
+    .img6 {
+        position: relative;
+        left: 27cm;
+        top: -11.25cm;
+    }
+    .offrir5 { 
+        position: relative;
+        top: -12.3cm;
+        left: 6.75cm;
+        width: 3cm;
+        padding: 15px;
+        color: rgb(250, 244, 244); 
+        display: inline-block;
+        font-size: 15px;
+        text-align: center;
+        cursor: pointer;
+    }
+    /******article 2 special *****/
+    .art7{
+        position: relative;
+        top: -11.5cm;
+        left: 6cm;
+        margin: 2%;
+    }
+    .descrip7{
+        position: relative;
+        top: -11.5cm;
+        left: 6cm;
+        margin: 2%;
+        font-size: 0.45cm;
+    }
+    .img7 {
+        position: relative;
+        left: 27cm;
+        top: -18.5cm;
+    }
+    .offrir6 { 
+        position: relative;
+        top: -17.3cm;
+        left: 6.75cm;
+        width: 3cm;
+        padding: 15px;
+       
+        color: rgb(250, 244, 244); 
+        display: inline-block;
+        font-size: 15px;
+        text-align: center;
+        cursor: pointer;
+    }
+     /******style animation ***/
+     .offrir5 :hover{
+        background-color: goldenrod;
+     }
+     .offrir5 a {
+        text-decoration: none;
+ color: rgba(245, 192, 94, 0.87);
+ border: 2px solid rgba(245, 192, 94, 0.87);
+ padding: 0.3cm;
+ border-radius: 10%;
+transition: 0.5s;
+    }
+     .offrir5 a:hover{
+        color: white;
+        border: 2px solid rgba(245, 192, 94, 0.87);
+        padding: 0.3cm;
+        border-radius: 10%;
+        background-color:rgba(245, 192, 94, 0.87) ;
+    }
+    /******style animation ***/
+    .offrir6 :hover{
+        background-color: goldenrod;
+     }
+     .offrir6 a {
+        text-decoration: none;
+        color: rgba(245, 192, 94, 0.87);
+        border: 2px solid rgba(245, 192, 94, 0.87);
+        padding: 0.3cm;
+        border-radius: 10%;
+       transition: 0.5s;
+    }
+     .offrir6 a:hover{
+        color: white;
+    border: 2px solid rgba(245, 192, 94, 0.87);
+    padding: 0.3cm;
+    border-radius: 10%;
+    background-color:rgba(245, 192, 94, 0.87) ;
+    }
+    
+
+
+    /*-------------pied de page --------*/
+footer{
+    height: 1.5cm;
+    color:rgba(0, 0, 0, 0.699);
+   
+}
+
+.separateur{
+    background-color: rgba(0, 0, 0, 0.705);
+    height: 0.02cm;
+    width: 30cm;
+    text-align: center;
+    opacity: 50%;
+    margin-left: 2.2cm;
+
+}
+
+
+
+footer p {
+    margin-top: 0.3cm;
+    width: 10cm;
+margin-left: 12.5cm;
+}

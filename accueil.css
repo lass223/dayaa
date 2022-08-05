@@ -1,0 +1,584 @@
+*{
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+   
+}
+
+
+
+/*------Barre de Nagigation------*/
+#navbar {
+  display: flex;
+
+}
+
+/*------------logo--------------*/
+.logo{
+ color: rgba(245, 192, 94, 0.87);
+ margin-top: 0.6cm;
+ margin-left:0.9cm;
+ margin-bottom: 0.5cm;
+ font-size: 1cm;
+}
+
+.logo strong {
+color: rgba(0, 0, 0, 0.507);
+}
+
+/*------------lien  Navbar-------*/
+
+.lien_navbar{
+display: flex;
+margin-top: 1cm;
+margin-left: 14.5cm;
+font-size: 0.4cm;
+}
+
+
+.lien_navbar li{
+    margin-left: 0.5cm;
+}
+
+.lien_navbar a {
+    color: rgba(0, 0, 0, 0.9);
+}
+
+.lien_navbar a:hover {
+    color: rgba(245, 192, 94, 0.87);
+}
+
+/*--------------- accueil ------------*/
+  
+
+    .slide img {
+        width: 1311px;
+        height: 555px;
+    }
+
+    .slide {
+      display: flex;
+      animation: glisse 10s infinite;
+    }
+
+    .slides {
+        display: flex;
+    }
+
+    .slider {
+        width: 1311px;
+        overflow: hidden;
+        z-index: 0;
+    }
+
+    @keyframes glisse {
+        0% { transform: translateX(0);}
+        10% { transform: translateX(0);}
+        20% { transform: translateX(0);}
+        27% { transform: translateX(0);}
+        33% { transform: translateX(-1311px);}
+        45% { transform: translateX(-1311px);}
+        55% { transform: translateX(-1311px);}
+        60% { transform: translateX(-1311px);}
+        66% { transform: translateX(-2622px);}
+        75% { transform: translateX(-2622px);}
+        80% { transform: translateX(-2622px);}
+        90% { transform: translateX(-2622px);}
+        100% { transform: translateX(0);}
+
+    }
+
+/*---------------Travailler Lass----------------*/
+
+
+
+.id1{
+    text-align: justify;
+    margin-top: 1.5cm;
+    
+}
+
+.id1 p {
+    width: 25cm;
+    position: relative;
+    left: 4.5cm;
+    margin-top: 0.7cm;
+    font-size: 00.5cm;
+    color: rgba(22, 19, 19, 0.75)
+}
+
+.id1 h1 {
+   text-align: center;
+   letter-spacing: 5px;
+   text-transform: uppercase;
+   color: rgba(245, 192, 94, 0.87);
+    
+
+ }
+
+
+.id2{
+    text-align: justify;
+    margin-top: 1.5cm;
+}
+
+ .id2 img {
+    width: 18cm;
+ }
+
+.id2 p {
+    width: 25cm;
+    position: relative;
+    left: 4.5cm;
+    margin-top: 0.7cm;
+    font-size: 00.5cm;
+    color: rgba(22, 19, 19, 0.75)
+}
+
+.id2 h2 {
+    text-align: center;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: rgba(245, 192, 94, 0.87);
+}
+
+.img_intermediare1 {
+    width: 100%;
+    height: 500px;
+    background: url(./IMAGES/spa0.jpg)  fixed;
+    margin-top: 4cm;
+  
+} 
+
+.text1_accueil{
+    text-align: center;
+   padding-top: 3cm;
+   padding-bottom: 2cm;
+}
+
+.text1_accueil a {
+    color: rgba(0, 0, 0, 0.699);
+    border: 2px solid rgba(0, 0, 0, 0.699);
+    padding: 0.7cm;
+    transition: 0.5s;
+}
+
+.text1_accueil a:hover{
+    color: rgba(245, 192, 94, 0.87);;
+    border: 2px solid rgba(245, 192, 94, 0.87);;
+
+}
+
+.text2_accueil{
+    text-align: center;
+    margin-top: 2.5cm;
+
+
+}
+
+.text2_accueil a{
+  color: rgba(0, 0, 0, 0.699);
+    border: 2px solid rgba(0, 0, 0, 0.699);
+    padding: 0.7cm;
+    transition: 0.5s;
+}
+
+.text2_accueil a:hover{
+    color: rgba(245, 192, 94, 0.87);;
+    border: 2px solid rgba(245, 192, 94, 0.87);;
+
+}
+
+.img_intermediare2 {
+    width: 100%;
+    height: 500px;
+    background: url(./IMAGES/spa4.jpg)  fixed;
+    margin-top: 4cm;
+  
+} 
+
+
+.id3{
+    text-align: justify;
+    margin-top: 1.5cm;
+ }
+ .id3 img{
+     width: 18cm;
+     height: 10cm;
+    
+ }
+ 
+ .id3 p {
+    width: 25cm;
+    position: relative;
+    left: 4.5cm;
+    margin-top: 0.7cm;
+    font-size: 00.5cm;
+    color: rgba(22, 19, 19, 0.75)
+ }
+ 
+ .id3 h2 {
+    text-align: center;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: rgba(245, 192, 94, 0.87);
+ }
+
+ .id4{
+    text-align: justify;
+    margin-top: 1.5cm;
+ }
+ .id4 img{
+     width: 16cm; 
+
+ }
+ 
+ .id4 p {
+    width: 25cm;
+    position: relative;
+    left: 4.5cm;
+    margin-top: 0.7cm;
+    font-size: 00.5cm;
+    color: rgba(22, 19, 19, 0.75)
+ }
+ 
+ .id4 h2 {
+    text-align: center;
+   letter-spacing: 5px;
+   text-transform: uppercase;
+   color: rgba(245, 192, 94, 0.87);
+ }
+
+
+ /*--------------777777777----------*/
+
+    .img_intermediare {
+        width: 100%;
+        height: 500px;
+        background: url(./IMAGES/accueil1.png) no-repeat center fixed;
+        margin-top: 4cm;
+    } 
+
+  
+   
+
+ /*--------- boutique--------*/
+
+.boutique {
+    text-align: justify;
+    margin-top: 1.5cm; 
+}
+
+ .titre_boutique{
+    text-align: center;
+   letter-spacing: 5px;
+   text-transform: uppercase;
+   color: rgba(245, 192, 94, 0.87);
+   margin-top: 3cm;
+    
+ }
+
+ .text_boutique {
+    width: 25cm;
+    position: relative;
+    left: 4.5cm;
+    margin-top: 0.7cm;
+    font-size: 00.5cm;
+    color: rgba(22, 19, 19, 0.75)
+
+ }
+
+ 
+ .ligne1 {
+    margin: 2cm 0 0 3cm ;
+     display: flex;
+ }
+ 
+ .produit1 a img{
+ margin-left: 1cm;
+ }
+ 
+ .produit1 a h4{
+     margin: 1cm 0 1cm 0;
+     color: rgba(0, 0, 0, 0.699);
+ 
+ }
+ 
+ .produit1 a h2{
+     color:rgba(245, 192, 94, 0.87);
+     text-align: center;
+ }
+ 
+ .produit1:hover {
+    opacity: 60%;
+  }
+
+ .produit2{
+    margin: -0.5cm 0 0 2.5cm  ;
+   
+ }
+ 
+ .produit2 a img{
+ margin-left: 1cm;
+ }
+ 
+ .produit2 a h4{
+     margin: 0.8cm 0 1cm 0;
+     color: rgba(0, 0, 0, 0.699);
+ }
+ 
+ .produit2 a h2{
+     color:rgba(245, 192, 94, 0.87);
+     text-align: center;
+ }
+
+ .produit2:hover {
+    opacity: 60%;
+  }
+ 
+ .produit3{
+     margin: -1.3cm 0 0 2.5cm  ;
+  }
+  
+  .produit3 a img{
+  margin-left: 0.5cm;
+  }
+  
+  .produit3 a h4{
+      margin: 0.8cm 0 1cm 0;
+      color: rgba(0, 0, 0, 0.699);
+  }
+ 
+  .produit3 a h2{
+     color:rgba(245, 192, 94, 0.87);
+     text-align: center;
+ } 
+
+ .produit3:hover {
+    opacity: 60%;
+  }
+ 
+  .produit4{
+     margin: -1.35cm 0 0 2.5cm  ;
+  }
+  
+  .produit4 a img{
+  margin-left: 0.5cm;
+  }
+  
+  .produit4 a h4{
+      margin: 0.8cm 0 1cm 0;
+      color: rgba(0, 0, 0, 0.699);
+  }
+ 
+  .produit4 a h2{
+     color:rgba(245, 192, 94, 0.87);
+     text-align: center;
+ }
+
+ .produit4:hover {
+    opacity: 60%;
+  }
+
+.button {
+    text-align: center;
+    color:rgba(0, 0, 0, 0.699);
+    margin-top: 2cm; 
+}
+
+ .button a{
+   border-radius: 10%;
+    border: 2px solid rgba(245, 192, 94, 0.87);
+    padding: 10px;
+    color:rgba(245, 192, 94, 0.87)
+ }
+
+ .button a:hover{
+    border-radius: 10%;
+    border: 2px solid rgba(245, 192, 94, 0.87);
+    background-color: rgba(245, 192, 94, 0.87) ;
+    padding: 10px;
+    color: white;
+ }
+ 
+
+ /*---------Rituel--------*/
+
+ .img_intermediare0 {
+    width: 100%;
+    height: 500px;
+    background: url(./IMAGES/spa3.webp) no-repeat center fixed;
+    margin-top: 4cm;
+} 
+
+
+
+
+ .deco_rituel {
+    display: flex;
+    margin: 3cm 1cm 0cm 0.5cm;
+    text-align: justify;
+    margin-top: 1.5cm; 
+   
+}
+
+.deco_left {
+    width: 20cm;
+    margin: 1cm 3cm 1.5cm 1cm;
+    
+}
+
+.deco_left h1 {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: rgba(245, 192, 94, 0.87);
+    
+}
+
+.deco_left p {
+    width: 20cm;
+    margin-top: 0.7cm;
+    font-size: 00.5cm;
+    color: rgba(22, 19, 19, 0.75)
+}
+
+.deco_right {
+    text-align: center;
+    padding-top: 2cm;
+    width: 12cm;
+}
+
+.deco_right p {
+    font-size: 0.6cm;
+ 
+}
+
+.lien {
+    margin-top: 2cm;
+    
+}
+
+.lien a {
+    font-size: 00.4cm;
+    border: 2px solid rgba(245, 192, 94, 0.87);
+    padding: 20px 10px;
+    color:rgba(245, 192, 94, 0.87);
+    text-decoration: none;
+   
+}
+
+.lien a:hover{
+    border-radius: 10%;
+    border: 2px solid rgba(245, 192, 94, 0.87);
+    background-color: rgba(245, 192, 94, 0.87) ;
+    padding: 20px;
+    color: white;
+
+}
+
+
+.rituel{
+    display: flex;
+    margin: 1.5cm 2cm 2cm 2cm;
+}
+
+
+.right_rituel img {
+    width:7cm ;
+    margin-left: 4.5cm;
+}
+
+.left_rituel{
+    width: 21cm;
+  
+}
+
+.left_rituel p{
+color: rgba(0, 0, 0, 0.699);
+font-size: 0.4cm;
+margin-top: 0.5cm;
+
+}
+
+.left_rituel h3{
+margin: 1.5cm 0 0 1cm ;
+
+
+}
+
+.left_rituel h3 a{
+ text-decoration: none;
+ color: rgba(245, 192, 94, 0.87);
+ border: 2px solid rgba(245, 192, 94, 0.87);
+ padding: 0.3cm;
+ border-radius: 10%;
+transition: 0.5s;
+}
+
+.left_rituel h3 a:hover{
+    color: white;
+    border: 2px solid rgba(245, 192, 94, 0.87);
+    padding: 0.3cm;
+    border-radius: 10%;
+    background-color:rgba(245, 192, 94, 0.87) ;
+   }
+
+   .right_rituelle img {
+    width: 8cm;
+    margin-left: 2.5cm;
+    margin-top: 0.5cm;
+    margin-bottom: 1cm;
+}
+
+.button {
+    text-align: center;
+    color:rgba(0, 0, 0, 0.699);
+    margin-top: 2cm; 
+}
+
+ .button a{
+   border-radius: 10%;
+    border: 2px solid rgba(245, 192, 94, 0.87);
+    padding: 10px;
+    color:rgba(245, 192, 94, 0.87)
+ }
+
+ .button a:hover{
+    border-radius: 10%;
+    border: 2px solid rgba(245, 192, 94, 0.87);
+    background-color: rgba(245, 192, 94, 0.87) ;
+    padding: 10px;
+    color: white;
+ }
+
+
+
+
+
+
+/*--------pied de page-----*/
+
+footer{
+    margin-top: 4cm;
+    height: 1.5cm;
+    color:rgba(0, 0, 0, 0.699);
+   
+}
+
+.separateur{
+    background-color: rgba(0, 0, 0, 0.705);
+    height: 0.02cm;
+    width: 30cm;
+    text-align: center;
+    opacity: 50%;
+    margin-left: 2.2cm;
+
+}
+
+
+
+footer p {
+    margin-top: 0.3cm;
+    width: 10cm;
+margin-left: 12.5cm;
+}
